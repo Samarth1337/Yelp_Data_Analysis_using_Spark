@@ -19,8 +19,11 @@ The final task delved into a comprehensive analysis encompassing both review and
 ## Technologies Used:
 
 Python: Leveraged Python programming language for script development, ensuring compatibility with Spark RDD and adherence to assignment requirements.
+
 Spark RDD: Utilized Spark Resilient Distributed Datasets (RDD) for distributed data processing, enabling efficient handling of large-scale datasets and parallel execution of data transformation operations.
+
 JSON: Employed JSON (JavaScript Object Notation) format for data input and output, facilitating interoperability and ease of integration with Spark RDD operations.
+
 Apache Spark: Leveraged Apache Spark framework for distributed data processing, enabling seamless scalability and fault tolerance for processing large volumes of data.
 
 ## Data Description:
