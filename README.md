@@ -1,19 +1,20 @@
 # Yelp_analysis-Exploring_User_Recommendations_and_Business_Insights
 
-## Project Overview:
-For this project, I undertook a comprehensive exploration of the Yelp dataset to gain insights into user behavior and preferences regarding restaurants. Leveraging my expertise in data mining and analytics, I focused on understanding the factors influencing participants' likelihood to recommend their favorite restaurants to others. The project involved employing experimental design methodologies, including between-subject and within-subject testing, to investigate the effects of offering discounts and opening new locations on restaurant suggestions. By conducting statistical analyses, including 2-way ANOVA tests, I uncovered significant main effects of time but not of scenarios, highlighting the nuanced dynamics at play in user recommendations.
+## Project Overview: Yelp Data Analysis
+
+In this project, I embarked on a comprehensive exploration of Yelp's vast dataset to uncover valuable insights into user recommendations and business dynamics. Leveraging Spark, a powerful distributed computing framework, I delved into three key tasks aimed at unraveling the intricacies of user behavior and business performance within the Yelp ecosystem.
 
 ## Solution Highlights:
 To address the research objectives, I designed and implemented Python scripts using Spark RDD to perform data processing and analysis. 
 
-### In Task 1, 
-I developed a script (task1.py) to automatically extract key insights from the Yelp review dataset, such as the total number of reviews, the number of reviews in 2018, the number of distinct users who wrote reviews, and the top users and businesses based on review count.
+### Task 1: Data Exploration
+The first task entailed a meticulous examination of review data extracted from Yelp's repository. Through Python scripts powered by Spark RDDs, I tackled various inquiries, including the total number of reviews, reviews in the year 2018, distinct users contributing reviews, top users based on review count, distinct businesses reviewed, and top businesses by review count. By harnessing Spark's parallel processing capabilities, I efficiently extracted and analyzed key metrics, shedding light on user engagement and business popularity.
 
-### In Task 2, 
-I focused on optimizing data processing performance by partitioning the dataset and comparing default Spark partitioning with a customized partitioning approach. By implementing a custom partitioning function in task2.py, I demonstrated improvements in execution time for specific tasks, showcasing the importance of performance optimization in large-scale data processing pipelines.
+### Task 2: Partition Optimization
+With an eye toward performance optimization, the second task focused on partitioning strategies within Spark RDDs. By customizing partition functions, I aimed to enhance the efficiency of map and reduce tasks while processing Yelp's review data. Through comparative analysis, I evaluated the impact of default versus customized partitioning on execution time, partition count, and item distribution. This optimization endeavor underscored the importance of strategic data partitioning in maximizing processing efficiency within Spark.
 
-### In Task 3, 
-I expanded my analysis to explore relationships between multiple datasets, including review information and business information. Using Spark RDD, I developed a script (task3.py) to calculate the average star ratings for each city and compared execution times between two methods for identifying the top cities with the highest average star ratings.
+### Task 3: Exploration on Multiple Datasets
+The final task delved into a comprehensive analysis encompassing both review and business datasets. By integrating disparate data sources, I sought to derive nuanced insights into user preferences across different cities. Leveraging Spark's capabilities, I computed average star ratings for each city, facilitating a deeper understanding of regional variations in user sentiment. Additionally, I conducted a comparative analysis of execution times between two methodologies for identifying top cities by average star ratings, shedding light on optimal approaches for aggregating and processing multi-dimensional data.
 
 ## Technologies Used:
 
