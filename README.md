@@ -2,7 +2,7 @@
 
 ## Project Overview: Yelp Data Analysis
 
-In this project, I embarked on a comprehensive exploration of Yelp's vast dataset to uncover valuable insights into user recommendations and business dynamics. Leveraging Spark, a powerful distributed computing framework, I delved into three key tasks aimed at unraveling the intricacies of user behavior and business performance within the Yelp ecosystem.
+In this project, I ran a comprehensive exploration of Yelp's vast dataset to uncover valuable insights into user recommendations and business dynamics. Leveraging Spark, a powerful distributed computing framework, I dove into three key tasks aimed at unraveling the intricacies of user behavior and business performance within the Yelp ecosystem.
 
 ## Solution Highlights:
 To address the research objectives, I designed and implemented Python scripts using Spark RDD to perform data processing and analysis. 
